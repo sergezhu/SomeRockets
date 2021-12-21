@@ -9,7 +9,7 @@ namespace Core.CoreDemo
         public event Action GameModeActivated;
         public event Action GameEnded;
 
-        private Options.GameStage _gameStage = Options.GameStage.Menu; 
+        private Options.GameStage _gameStage = Options.GameStage.EditMode; 
         private Options.GameType _gameType = Options.GameType.Local;
 
         private readonly bool[] _editIsDone = new bool[Options.players.Length];
