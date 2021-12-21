@@ -1,0 +1,8 @@
+*
+!*/
+!/.gitignore
+!/README.md
+!/readme/*
+!Assets/Scripts/Core/CoreDemo/**/*
+
+.idea
